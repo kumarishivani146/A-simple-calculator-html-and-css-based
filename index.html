@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>calc</title>
+</head>
+<meta charset="utf-8">
+     <link rel="stylesheet" href="cal.css"/>
+<body background="nLjxrSk.jpg">
+<center>
+<div style="background-color:indigo" height="80" width="1600">
+<br>
+  <h1 style="color:violet">This is CALCULATOR template using HTML and CSS</h1>
+<br>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+     <fieldset id="container">
+      <form name="calculator" >
+<div height="150" width="300">
+<p><u><b>CASIO ES-7796</b></u></P><hr>
+</div>
+	<input type="text" placeholder="Value is.................." id="display" name="display" readonly>
+	<input class="button digits" type="button" value="7" onclick="calculator.display.value += '7'">
+       <input class="button digits" type="button" value="8" onclick="calculator.display.value += '8'">
+       <input class="button digits" type="button" value="9" onclick="calculator.display.value += '9'">
+       <input class="button digits" type="button" value="*" onclick="calculator.display.value += ' * '">
+       <br>
+       <input class="button digits" type="button" value="4" onclick="calculator.display.value += '4'">
+       <input class="button digits" type="button" value="5" onclick="calculator.display.value += '5'">
+       <input class="button digits" type="button" value="6" onclick="calculator.display.value += '6'">
+       <input class="button digits" type="button" value="/" onclick="calculator.display.value += ' / '">
+       <br>
+       <input class="button digits" type="button" value="1" onclick="calculator.display.value += '1'">
+       <input class="button digits" type="button" value="2" onclick="calculator.display.value += '2'">
+       <input class="button digits" type="button" value="3" onclick="calculator.display.value += '3'">
+       <input class="button digits" type="button" value="-" onclick="calculator.display.value += ' - '">
+       <br>
+       <input class="button digits" type="button" value="0" onclick="calculator.display.value += '0'">
+<input class="button digits" type="button" value="." onclick="calculator.display.value += '.'">
+<input class="button digits" type="button" value="=" onclick="calculator.display.value = eval(calculator.display.value)">
+       <input class="button digits" type="button" value="+" onclick="calculator.display.value += ' + '">
+<br>
+
+       <input id="clearButton" class="button" type="button" value="Clear All" onclick="calculator.display.value = ''">
+
+<center>
+</body>
+</html>
